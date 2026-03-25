@@ -1,0 +1,14 @@
+{
+    "spec_dir": "dist/tests",
+    "spec_files": [
+        "**/*_spec.js"
+    ],
+    "helpers": [],
+    "stopSpecOnExpectationFailure": false,
+    "random": false,
+    "reporters": [
+        {
+            "name": "./spec/support/verbose-reporter"
+        }
+    ]
+}
