@@ -16,6 +16,8 @@ A Node.js/Express backend API for an online storefront with user authentication,
 npm install
 ```
 
+**Note:** This project uses `bcryptjs` for password hashing, which does not require native compilation. Simply run `npm install` and all dependencies will be installed automatically without needing Python or build tools.
+
 ### 2. Database Setup
 
 #### Create PostgreSQL Databases
